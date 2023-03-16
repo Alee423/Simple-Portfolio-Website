@@ -1,0 +1,234 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+  }
+  .heading{
+    color: white;
+    text-transform: uppercase;
+    letter-spacing:5px;
+    font-size: 40px; 
+    margin-right: 45%;
+    font-family: 'Times New Roman', Times, serif;
+       
+}
+nav{
+    background-color:rgb(32,39,44);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 8vh;
+}
+.nav-links{
+    display: flex;
+    justify-content:space-around;
+    width: 30%;  
+}
+.nav-links li{
+ list-style: none;
+}
+.nav-links a{
+    color: white;
+    text-decoration: none;
+    letter-spacing: 3px;
+    font-weight: bold;
+    font-size: 16px;
+    padding: 14px 16px;
+    font-family:'Times New Roman', Times, serif;
+}
+.body-text{
+    display: flex;
+    font-family:"Montserrat",sans-serif;
+    align-items: center;
+    justify-content: center;
+    margin-top: 250px;
+  }
+a{
+    color: white;
+    text-decoration: none;
+}
+a:hover{
+    background-color:rgb(78,177,187);
+    border-radius: 20%;
+}
+.nav-links li a:hover:not(.active){
+    background-color:rgb(78,177,187);
+   border-radius: 20%;
+}
+.nav-links li a.active{
+    background-color: beige;
+}
+body{
+    background-color:whitesmoke;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+    height: 15%;
+   
+  }
+  .info{
+   padding-left: 45%;
+   padding-top: 5px;
+   font-family:'Times New Roman', Times, serif;
+   font-size:small;
+   letter-spacing: 1px;
+  }
+  .end{
+    padding-left: 40%;
+    padding-top: 1px;
+    font-size:xx-small;
+    font-style: italic;
+  }
+  
+  .hobheading{
+    padding-top: 15px;
+    padding-left: 5%;
+  }
+  .travel{
+    padding-top: 25px;
+    padding-left: 20%;
+  }
+  .cricket{
+    padding-top: 5%;
+    padding-left: 55%;
+  }
+  .photgr{
+    padding-top: 30px;
+    padding-left: 20%;
+  }
+  .swim{
+    padding-top:5%;
+    padding-left: 55%;
+  }
+  .diving{
+    padding-top: 55px;
+    padding-left: 20%; 
+  }
+  .starg{
+    padding-top: 35px;
+    padding-left: 55%; 
+  }
+  .mountain{
+    padding-top: 15px;
+    padding-left: 20%;
+  }
+  .conheading{
+    padding-top: 15px;
+    padding-left: 5%;
+  }
+  .user{
+    padding-top: 20px;
+    padding-left: 50%;
+    
+  }
+  .travel{
+    background-color:rgb(245,245,245);
+    position: 0PX 10PX;
+    z-index: 0;
+    transition: 0.2s all;
+    width: 30%;
+    height: 50%;
+    padding-left:2%;
+    margin-left: 20%;
+  }
+  
+ .travel:hover{
+  z-index: 1;
+  box-shadow:0 8px 50px rgba(0,0,0,0.2);
+  transform: scale(0.9);
+ }
+ .photgr{
+  background-color:rgb(245,245,245);
+    position: 0PX 10PX;
+    z-index: 0;
+    transition: 0.2s all;
+    width: 30%;
+    height: 50%;
+    padding-left:2%;
+    margin-left: 20%;
+ }
+ .photgr:hover{
+  z-index: 1;
+  box-shadow:0 8px 50px rgba(0,0,0,0.2);
+  transform: scale(0.9);
+ }
+ .diving{
+  background-color:rgb(245,245,245);
+    position: 0PX 10PX;
+    z-index: 0;
+    transition: 0.2s all;
+    width: 30%;
+    height: 50%;
+    padding-left:2%;
+    margin-left: 20%;
+ }
+ .diving:hover{
+  z-index: 1;
+  box-shadow:0 8px 50px rgba(0,0,0,0.2);
+  transform: scale(0.9);
+ }
+.mountain{
+  background-color:rgb(245,245,245);
+  position: 0PX 10PX;
+  z-index: 0;
+  transition: 0.2s all;
+  width: 30%;
+  height: 50%;
+  padding-left:2%;
+  margin-left: 20%;
+}
+.mountain:hover{
+  z-index: 1;
+  box-shadow:0 8px 50px rgba(0,0,0,0.2);
+  transform: scale(0.9);
+}
+.cricket{
+  background-color:rgb(245,245,245);
+  position: 0PX 10PX;
+  z-index: 0;
+  transition: 0.2s all;
+  width: 30%;
+  height: 50%;
+  padding-left:2%;
+  margin-left: 50%;
+  
+}
+.cricket:hover{
+  z-index: 1;
+  box-shadow:0 8px 50px rgba(0,0,0,0.2);
+  transform: scale(0.9);
+}
+.swim{
+  background-color:rgb(245,245,245);
+  position: 0PX 10PX;
+  z-index: 0;
+  transition: 0.2s all;
+  width: 30%;
+  height: 50%;
+  padding-left:2%;
+  margin-left: 50%;
+}
+.swim:hover{
+  z-index: 1;
+  box-shadow:0 8px 50px rgba(0,0,0,0.2);
+  transform: scale(0.9);
+}
+.starg{
+  background-color:rgb(245,245,245);
+  position: 0PX 10PX;
+  z-index: 0;
+  transition: 0.2s all;
+  width: 30%;
+  height: 50%;
+  padding-left:2%;
+  margin-left: 50%;
+}
+.starg:hover{
+  z-index: 1;
+  box-shadow:0 8px 50px rgba(0,0,0,0.2);
+  transform: scale(0.9);
+}
